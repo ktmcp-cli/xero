@@ -1,0 +1,69 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff7f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cc66;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bgGrad)" rx="8"/>
+
+  <!-- Green accent bar -->
+  <rect x="0" y="0" width="5" height="200" fill="url(#accentGrad)" rx="2"/>
+
+  <!-- Product name -->
+  <text x="36" y="72" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="48" font-weight="bold" fill="#ffffff" letter-spacing="-1">Xero</text>
+
+  <!-- Green dot accent -->
+  <circle cx="168" cy="56" r="6" fill="#00ff7f"/>
+
+  <!-- Description -->
+  <text x="36" y="100" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="14" fill="#888888">Cloud accounting from your terminal — invoices, contacts, bank reconciliation</text>
+
+  <!-- npm install terminal box -->
+  <rect x="36" y="118" width="340" height="38" fill="#111111" rx="6" stroke="#333333" stroke-width="1"/>
+  <text x="52" y="141" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#888888">$</text>
+  <text x="68" y="141" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#ffffff">npm install -g </text>
+  <text x="209" y="141" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#00ff7f">@ktmcp-cli/xero</text>
+
+  <!-- Terminal badge -->
+  <rect x="600" y="30" width="168" height="140" fill="#111111" rx="8" stroke="#333333" stroke-width="1"/>
+
+  <!-- Terminal window dots -->
+  <circle cx="620" cy="52" r="5" fill="#ff5f57"/>
+  <circle cx="636" cy="52" r="5" fill="#febc2e"/>
+  <circle cx="652" cy="52" r="5" fill="#28c840"/>
+
+  <!-- Terminal title -->
+  <text x="684" y="56" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle">terminal</text>
+
+  <!-- Separator line -->
+  <line x1="600" y1="65" x2="768" y2="65" stroke="#333333" stroke-width="1"/>
+
+  <!-- Kill command -->
+  <text x="616" y="90" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#555555">$</text>
+  <text x="628" y="90" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#00ff7f">kill -9 MCP</text>
+
+  <!-- Output lines -->
+  <text x="616" y="112" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#444444">Terminated: mcp-server</text>
+  <text x="616" y="130" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#444444">Using: xero CLI instead</text>
+
+  <!-- Cursor -->
+  <text x="616" y="150" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#555555">$</text>
+  <rect x="628" y="139" width="8" height="14" fill="#00ff7f" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- KTMCP badge -->
+  <rect x="36" y="165" width="80" height="22" fill="#00ff7f" rx="4" opacity="0.15"/>
+  <text x="76" y="180" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#00ff7f" text-anchor="middle">KTMCP CLI</text>
+
+  <!-- Version badge -->
+  <rect x="126" y="165" width="70" height="22" fill="#333333" rx="4"/>
+  <text x="161" y="180" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="11" fill="#888888" text-anchor="middle">v1.0.0</text>
+</svg>
