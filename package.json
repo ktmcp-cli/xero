@@ -4,8 +4,17 @@
   "description": "Production-ready CLI for Xero API - cloud accounting, invoices, contacts",
   "type": "module",
   "main": "src/index.js",
-  "bin": { "xero": "./bin/xero.js" },
-  "keywords": ["xero", "accounting", "invoice", "cli", "api", "ktmcp"],
+  "bin": {
+    "xero": "bin/xero.js"
+  },
+  "keywords": [
+    "xero",
+    "accounting",
+    "invoice",
+    "cli",
+    "api",
+    "ktmcp"
+  ],
   "author": "KTMCP",
   "license": "MIT",
   "dependencies": {
@@ -16,10 +25,12 @@
     "ora": "^8.0.1",
     "conf": "^12.0.0"
   },
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ktmcp-cli/xero.git"
+    "url": "git+https://github.com/ktmcp-cli/xero.git"
   },
   "homepage": "https://killthemcp.com/xero-cli",
   "bugs": {
